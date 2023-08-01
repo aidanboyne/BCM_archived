@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 
 /* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
 td, h1, h2, h3, h4, h5, p, ul, ol, li {
@@ -9,7 +10,7 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li {
   margin: 0;
   color: #24292f;
   background-color: #ffffff;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-family: Montserrat, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;

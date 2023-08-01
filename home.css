@@ -66,12 +66,12 @@ main {
 
 /* Style the sidebar */
 .grid-sidebar {
-  grid-column: 1 / span 8; /* The item starts at column 1 and spans 2 columns */
+  grid-column: 1; /* The item starts at column 1 and spans 2 columns */
   background-color: var(--secondary);
 }
 
 .grid-main {
-  grid-column: 2 / span 2; /* The item starts at column 1 and spans 2 columns */
+  grid-column: 2 / span 8; /* The item starts at column 1 and spans 8 columns */
   grid-row: 1; /* The item is in row 1 */
   background-color: var(--secondary);
 }

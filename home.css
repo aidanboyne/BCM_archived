@@ -153,12 +153,11 @@ grid-template-rows: auto;
 .grid-sidebar {
 grid-column: 1; /* The item starts at column 1 and spans 2 columns */
 background-color: var(--background);
-padding: 5%;
+padding: 10%;
 }
 
 .grid-sidebar a {
   text-decoration: none;
-  padding-left: 20px;
 }
 
 .grid-main {

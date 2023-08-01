@@ -12,9 +12,6 @@
 }
 
 body {
-	--h: 212deg;
-	--l: 43%;
-	--brandColor: hsl(var(--h), 71%, var(--l));
 	font-family: Montserrat, sans-serif;
 	margin: 0;
 	background-color: whitesmoke;
@@ -33,14 +30,7 @@ ol {
 	padding: 0 1rem;
 }
 
-li {
-	--stop: calc(100% / var(--length) * var(--i));
-	--l: 62%;
-	--l2: 88%;
-	--h: calc((var(--i) - 1) * (180 / var(--length)));
-	--c1: hsl(var(--h), 71%, var(--l));
-	--c2: hsl(var(--h), 71%, var(--l2));
-	
+.custom li {
 	position: relative;
 	counter-increment: list;
 	max-width: 45rem;
@@ -52,7 +42,7 @@ li {
 	background-color: white;
 }
 
-li::before {
+.custom li::before {
 	content: '';
 	display: block;
 	width: 100%;
@@ -60,7 +50,15 @@ li::before {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: linear-gradient(to right, var(--c1) var(--stop), var(--c2) var(--stop));
+	background: linear-gradient(45deg, var(--BCM), var(--background));
+}
+
+.base li {
+  content: '\2022'; /* Bullet character */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  color: var(--BCM);
 }
 
 h3 {

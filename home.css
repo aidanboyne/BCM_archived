@@ -141,7 +141,7 @@ padding: 10px;
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: auto;
 }
 
@@ -149,11 +149,11 @@ padding: 10px;
 .grid-sidebar {
   grid-column: 1; /* The item starts at column 1 and spans 2 columns */
   background-color: var(--background);
-  padding: 20px;
+  padding: 5%;
 }
 
 .grid-main {
-  grid-column: 2 / span 7; /* The item starts at column 1 and spans 8 columns */
+  grid-column: 2 / span 6; /* The item starts at column 1 and spans 8 columns */
   grid-row: 1; /* The item is in row 1 */
   background-color: var(--secondary);
   padding: 20px;

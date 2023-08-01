@@ -1,6 +1,6 @@
 :root {
     --BCM:   #1c3079;
-    --secondary: #dfdfdf
+    --secondary: #dfdfdf;
   }
   
 body {
@@ -22,7 +22,7 @@ margin-right: 10px;
 }
 
 nav a:hover {
-text-decoration: underline;
+  text-shadow: 1px 1px 2px var(--BCM);
 }
 
 section {
@@ -51,3 +51,17 @@ color: var(--secondary);
 text-align: center;
 padding: 10px;
 }
+
+main {
+  padding: 20px;
+  margin-left: 270px; /* To create a gap between the sidebar and main content */
+}
+
+.sidebar {
+  background-color: var(--secondary);
+  width: 250px;
+  padding: 20px;
+  float: left; /* To make the sidebar float next to the main content */
+}
+
+

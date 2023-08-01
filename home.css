@@ -33,7 +33,7 @@ ol {
 	padding: 0 1rem;
 }
 
-.custom li {
+li {
 	--stop: calc(100% / var(--length) * var(--i));
 	--l: 62%;
 	--l2: 88%;
@@ -52,7 +52,7 @@ ol {
 	background-color: white;
 }
 
-.custom li::before {
+li::before {
 	content: '';
 	display: block;
 	width: 100%;
@@ -61,14 +61,6 @@ ol {
 	top: 0;
 	left: 0;
 	background: linear-gradient(to right, var(--c1) var(--stop), var(--c2) var(--stop));
-}
-
-.base li {
-  content: '\2022'; /* Bullet character */
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-  color: var(--BCM);
 }
 
 h3 {
